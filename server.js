@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/articale-one', function(req , res){
+app.get('/article-one', function(req , res){
     res.send('articale one requested and willbe served here');
 });
 
-app.get('/articale-two', function(req , res){
+app.get('/article-two', function(req , res){
     res.send('articale two requested and willbe served here');
 });
 
-app.get('/articale-three', function(req , res){
+app.get('/article-three', function(req , res){
     res.send('articale Three requested and willbe served here');
 });
 
